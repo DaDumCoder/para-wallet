@@ -1,6 +1,7 @@
-import Para, { Environment } from "@getpara/web-sdk";
-import { ParaEthersSigner } from "@getpara/ethers-v6-integration";
-import { ethers } from "https://cdn.skypack.dev/ethers";
+// ─── IMPORT FROM CDN ───
+import Para, { Environment }        from "https://cdn.skypack.dev/@getpara/web-sdk";
+import { ParaEthersSigner }         from "https://cdn.skypack.dev/@getpara/ethers-v6-integration";
+import { ethers }                   from "https://cdn.skypack.dev/ethers";
 
 // ——— YOUR SETTINGS ———
 const API_KEY       = "8fe977a23730e37cb077ca7b057245d9";
