@@ -1,7 +1,7 @@
-// ——— IMPORT FROM CDN (via esm.sh) ———
-import Para, { Environment }    from "https://esm.sh/@getpara/web-sdk@latest?bundle";
-import { ParaEthersSigner }     from "https://esm.sh/@getpara/ethers-v6-integration@latest?bundle";
-import { ethers }               from "https://esm.sh/ethers@5?bundle";
+import Para, { Environment }    from "https://unpkg.com/@getpara/web-sdk?module";
+import { ParaEthersSigner }     from "https://unpkg.com/@getpara/ethers-v6-integration?module";
+import { ethers }               from "https://cdn.jsdelivr.net/npm/ethers/dist/ethers.esm.min.js";
+
 // ——— YOUR SETTINGS ———
 const API_KEY       = "8fe977a23730e37cb077ca7b057245d9";
 const RPC_URL       = "https://1rpc.io/sepolia";
