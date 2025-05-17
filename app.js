@@ -3,9 +3,9 @@ import { ParaEthersSigner } from "@getpara/ethers-v6-integration";
 import { ethers } from "https://cdn.skypack.dev/ethers";
 
 // ——— YOUR SETTINGS ———
-const API_KEY       = "YOUR_PARA_API_KEY";
-const RPC_URL       = "YOUR_RPC_URL";
-const CONTRACT_ADDR = "0xYourContractAddress";
+const API_KEY       = "8fe977a23730e37cb077ca7b057245d9";
+const RPC_URL       = "https://1rpc.io/sepolia";
+const CONTRACT_ADDR = "0x7917B4D4071AfdF7BB69bc65c423C3613Cd05c73";
 const CONTRACT_ABI  = ["function claim() returns (bool)"];
 // ————————————————
 
