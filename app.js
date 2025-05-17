@@ -1,6 +1,8 @@
-import Para, { Environment }    from "https://unpkg.com/@getpara/web-sdk?module";
-import { ParaEthersSigner }     from "https://unpkg.com/@getpara/ethers-v6-integration?module";
+// ——— IMPORT FROM JSPM ———
+import Para, { Environment }    from "https://dev.jspm.io/@getpara/web-sdk";
+import { ParaEthersSigner }     from "https://dev.jspm.io/@getpara/ethers-v6-integration";
 import { ethers }               from "https://cdn.jsdelivr.net/npm/ethers/dist/ethers.esm.min.js";
+// ————————————————————————
 
 // ——— YOUR SETTINGS ———
 const API_KEY       = "8fe977a23730e37cb077ca7b057245d9";
